@@ -24,14 +24,14 @@ out of the box and flexible enough to customize down the road.
   s.require_paths = ['lib']
 
   s.add_dependency('sass', '>= 3.3')
-  s.add_dependency("thor", "~> 0.19")
+  s.add_dependency("thor", "~> 1.0")
 
   s.add_development_dependency("scss_lint", "~> 0.43")
   s.add_development_dependency('aruba', '~> 0.5.0')
   s.add_development_dependency('bundler')
   s.add_development_dependency('css_parser')
   s.add_development_dependency('rake')
-  s.add_development_dependency('rb-fsevent', '~> 0.9.1')
+  s.add_development_dependency('rb-fsevent', '~> 0.10.3')
   s.add_development_dependency('rdoc')
   s.add_development_dependency('rspec')
 end
